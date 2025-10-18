@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.ImageView?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/11"
+            xmlns:fx="http://javafx.com/fxml/1"
+            stylesheets="@Style.css"
+            prefWidth="800" prefHeight="450">
+
+    <center>
+        <HBox spacing="20" alignment="CENTER">
+
+            <VBox spacing="15" alignment="CENTER">
+                <Button text="Вывести все таблицы" styleClass="btn" fx:id="one"/>
+                <Button text="Создать таблицу" styleClass="btn" fx:id="two"/>
+                <Button text="Ввести строки" styleClass="btn" fx:id="three"/>
+                <Button text="Инвертировать строки" styleClass="btn" fx:id="four"/>
+                <Button text="Склеить строки" styleClass="btn" fx:id="five"/>
+                <Button text="Сохранить" styleClass="btn" fx:id="six"/>
+
+            </VBox>
+
+
+            <ImageView fx:id="logoImage" fitWidth="400" fitHeight="400" />
+        </HBox>
+    </center>
+
+</BorderPane>
